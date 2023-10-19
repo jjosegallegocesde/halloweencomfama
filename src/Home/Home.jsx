@@ -86,17 +86,22 @@ export function Home() {
 
             </header>
             <div className="banner text-white fw-bold">
-                
+
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, consequuntur numquam aperiam recusandae qui explicabo? Eos temporibus voluptatum veniam maiores est, deleniti repellat fuga consequuntur earum quos distinctio optio maxime.</p>
                 <button className='btn btn-warning'>Conocenos</button>
             </div>
             <div className="container">
-                <div className="row">
-                    <div className="col-12">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum aliquid ipsam eligendi pariatur cum enim consectetur nostrum molestiae libero modi ab obcaecati neque sit iusto ex voluptatem quae explicabo aliquam et, quis dolore nesciunt vitae! Tenetur delectus, veniam expedita veritatis ea quae doloribus voluptatibus eius? Eius eveniet delectus accusamus ex est architecto fugit numquam, inventore voluptatibus dolores deleniti illum laudantium possimus voluptatem voluptate repudiandae magnam. Quas culpa, nihil repellendus iure magnam dignissimos ullam vitae aliquam minus, sed optio enim! Nemo, ratione quos odio saepe nisi quam, quasi neque dolores voluptates velit modi voluptatum autem animi, reiciendis labore natus optio fugit?</p>
+                <div className="row p-5">
+                    <div className="col-12 align-self-center text-center">
+                        <h5>LA CASITA DEL HORROR</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aut ipsam nulla sequi accusantium, unde facilis voluptatibus ratione nisi sunt tenetur? Laborum nisi assumenda sunt, dignissimos consequatur nulla explicabo tempora?</p>
+                        <img src="../../src/assets/img/logo.png" alt="foto" className='img-fluid' />
                     </div>
                 </div>
+                <div className="row"></div>
             </div>
+            <div className="banner2"></div>
+            
         </>
     )
 
