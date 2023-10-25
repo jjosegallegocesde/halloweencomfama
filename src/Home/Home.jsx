@@ -91,16 +91,82 @@ export function Home() {
                 <button className='btn btn-warning'>Conocenos</button>
             </div>
             <div className="container">
-                <div className="row p-5">
-                    <div className="col-12 align-self-center text-center">
+                <div className="row p-5 justify-content-center">
+                    <div className="col-4 align-self-center text-center">
                         <h5>LA CASITA DEL HORROR</h5>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aut ipsam nulla sequi accusantium, unde facilis voluptatibus ratione nisi sunt tenetur? Laborum nisi assumenda sunt, dignissimos consequatur nulla explicabo tempora?</p>
-                        <img src="../../src/assets/img/logo.png" alt="foto" className='img-fluid' />
+                        <img src="../../src/assets/img/foto2.jpg" alt="foto" className='img-fluid' />
                     </div>
                 </div>
                 <div className="row"></div>
             </div>
-            <div className="banner2"></div>
+
+            <div className="container-fluid">
+                <div className="row">
+                    <div className="col-12">
+                        <img src="../../src/assets/img/banner3.png" alt="" className='img-fluid w-100'/>
+                    </div>
+                </div>
+                <div className="row row-cols-1 row-cols-md-3 my-5">
+                    <div className="col text-center">
+                        <div className="card h-100 p-3 shadow">
+                            <img src="../../src/assets/img/tarjeta1.webp" alt="" className='img-fluid w-100'/>
+                            <h3>SERVICIO 1</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis fuga enim earum dolores a animi atque nemo et asperiores, non expedita. Nam autem laboriosam obcaecati possimus eaque a corporis saepe!</p>
+                            <hr />
+                            <h5 className='fw-bold text-success'>$500.000 COP</h5>
+                            <button className='btn btn-primary'>
+                                Ampliar  <i className="bi bi-shop-window"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div className="col">
+                    <div className="col text-center">
+                        <div className="card h-100 p-3 shadow">
+                            <img src="../../src/assets/img/tarjeta2.webp" alt="" className='img-fluid w-100'/>
+                            <h3>SERVICIO 1</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis fuga enim earum dolores a animi atque nemo et asperiores, non expedita. Nam autem laboriosam obcaecati possimus eaque a corporis saepe!</p>
+                            <hr />
+                            <h5 className='fw-bold text-success'>$500.000 COP</h5>
+                            <button className='btn btn-primary'>
+                                Ampliar  <i className="bi bi-shop-window"></i>
+                            </button>
+                        </div>
+                    </div>
+                    </div>
+                    <div className="col">
+                    <div className="col text-center">
+                        <div className="card h-100 p-3 shadow">
+                            <img src="../../src/assets/img/tarjeta3.jpg" alt="" className='img-fluid w-100'/>
+                            <h3>SERVICIO 1</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis fuga enim earum dolores a animi atque nemo et asperiores, non expedita. Nam autem laboriosam obcaecati possimus eaque a corporis saepe!</p>
+                            <hr />
+                            <h5 className='fw-bold text-success'>$500.000 COP</h5>
+                            <button className='btn btn-primary'>
+                                Ampliar  <i className="bi bi-shop-window"></i>
+                            </button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <div className="container-fluid bg-dark text-white">
+                    <div className="row p-5">
+                        <div className="col-6 text-end border-end">
+                            <h3>Pollos tenis de Mesa doña Angelica con pasarela y blood</h3>
+                            <h5>Medellin-Colombia</h5>
+                            <h5>Todos los derechos reservados &copy;</h5>
+                        </div>
+                        <div className="col-6 align-self-center">
+                            <i className="bi bi-instagram p-2 fs-4"></i>
+                            <i className="bi bi-whatsapp p-2 fs-4"></i>
+                            <i className="bi bi-tiktok p-2 fs-4"></i>
+                        </div>
+                    </div>
+                </div>
+            </footer>
             
         </>
     )
