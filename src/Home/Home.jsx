@@ -1,4 +1,5 @@
 import './Home.css'
+import { Formulario } from '../Formulario/Formulario'
 export function Home() {
 
     return (
@@ -150,6 +151,16 @@ export function Home() {
                     </div>
                 </div>
             </div>
+
+            <section>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                            <Formulario></Formulario>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             <footer>
                 <div className="container-fluid bg-dark text-white">
